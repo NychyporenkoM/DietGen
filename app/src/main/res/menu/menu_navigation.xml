@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_diets"
+            android:icon="@drawable/diets"
+            android:title="@string/title.diets">
+        </item>
+
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/users"
+            android:title="@string/title.users">
+        </item>
+
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/products"
+            android:title="@string/title.products">
+        </item>
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">DietGen</string>
+
+    <string name="action.add_user">Add user</string>
+    <string name="action.edit">Edit</string>
+    <string name="action.complete">Complete</string>
+    <string name="action.add_new">Add new</string>
+
+    <string name="user">User</string>
+    <string name="users">Users</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="meals">Meals</string>
+    <string name="gender.male">Male</string>
+    <string name="gender.female">Female</string>
+    <string name="physical_activity">Activity</string>
+    <string name="physical_activity.sedentary">Sedentary</string>
+    <string name="physical_activity.light">Light</string>
+    <string name="physical_activity.moderate">Moderate</string>
+    <string name="physical_activity.active">Active</string>
+    <string name="physical_activity.extreme">Extreme</string>
+    <string name="description">Activity description</string>
+    <string name="description.sedentary">Sedentary: little or no exercise, desk job</string>
+    <string name="description.light">Light: exercise or sports 1–3 days per week</string>
+    <string name="description.moderate">Moderate: exercise or sports 3–5 days per week</string>
+    <string name="description.active">Active: hard exercise or sports 6–7 days per week</string>
+    <string name="description.extreme">Extreme: hard daily exercise or sports and physical job</string>
+    <string name="purpose">Purpose</string>
+    <string name="purpose.gain_muscle">Gain muscle</string>
+    <string name="purpose.balanced_nutrition">Balanced nutrition</string>
+    <string name="purpose.fat_loss">Fat loss</string>
+    <string name="gender">Gender</string>
+
+    <string name="title.users">Users</string>
+    <string name="title.new_user">New user</string>
+    <string name="title.diet_generator">Diet generator</string>
+    <string name="title.diets">Diets</string>
+    <string name="title.products">Products</string>
+    <string name="title.diet">Diet</string>
+
+    <string name="daily_calories">Daily calories</string>
+
+    <string name="dlg_bt_cancel">Cancel</string>
+    <string name="dlg_bt_complete">Compete</string>
+    <string name="iv_select">Select</string>
+
+    <string name="main_activity_go_to_products">Go to Products</string>
+    <string name="main_activity_go_to_users">Go to Users</string>
+    <string name="main_activity_go_to_diets">Go to Diets</string>
+    <string name="edit_name">Edit name</string>
+    <string name="edit_age">Edit age</string>
+    <string name="edit_height">Edit height</string>
+    <string name="edit_weight">Edit weight</string>
+    <string name="edit_meals">Edit meals count</string>
+    
+    <string name="drawer_open">Open navigation</string>
+    <string name="drawer_close">Close navigation</string>
+
+</resources>

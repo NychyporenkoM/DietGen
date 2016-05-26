@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="antarit.dietgen" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".activities.DietsActivity"
+            android:label="@string/title.diets">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activities.UsersActivity"
+            android:label="@string/title.users"
+            android:parentActivityName=".activities.DietGeneratorActivity">
+        </activity>
+
+        <activity
+            android:name=".activities.UserDataActivity"
+            android:label="@string/title.new_user"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".activities.UsersActivity">
+        </activity>
+
+        <activity
+            android:name=".activities.FoodProductsActivity"
+            android:label="@string/title.products">
+        </activity>
+
+        <activity
+            android:name=".activities.DietGeneratorActivity"
+            android:label="@string/title.diet_generator"
+            android:parentActivityName=".activities.DietsActivity">
+        </activity>
+
+        <activity
+            android:name=".activities.RationsActivity"
+            android:label="@string/title.diet"
+            android:parentActivityName=".activities.DietsActivity">
+        </activity>
+
+    </application>
+
+</manifest>

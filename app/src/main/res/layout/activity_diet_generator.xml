@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/act_diet_generator_select_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <antarit.dietgen.custom.views.ParameterTextView
+
+                android:id="@+id/act_diet_generator_cv_not_selected_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <antarit.dietgen.custom.views.UserView
+
+                android:id="@+id/act_diet_generator_cv_selected_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <antarit.dietgen.custom.views.ParameterRadioGroup
+
+        android:id="@+id/act_diet_generator_cv_edit_diet_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/act_diet_generator_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/normal_spacing"
+        android:src="@drawable/new_complete"/>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="@dimen/light_spacing"
+    android:weightSum="19"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/cv_parameter_tv_parameter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/light_spacing"
+        android:layout_weight="9"/>
+
+    <TextView
+        android:id="@+id/cv_parameter_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/light_spacing"
+        android:layout_weight="9"/>
+
+    <ImageView
+        android:id="@+id/cv_parameter_tv_iv_select"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/select"
+        android:contentDescription="@string/iv_select"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/light_spacing"
+        android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="act_user_data_rb_male" type="id"/>
+    <item name="act_user_data_rb_female" type="id"/>
+    <item name="act_user_data_rb_sedentary" type="id"/>
+    <item name="act_user_data_rb_light" type="id"/>
+    <item name="act_user_data_rb_moderate" type="id"/>
+    <item name="act_user_data_rb_active" type="id"/>
+    <item name="act_user_data_rb_extreme" type="id"/>
+    <item name="act_diet_generator_rb_gain_muscle" type="id"/>
+    <item name="act_diet_generator_rb_balanced_nutrition" type="id"/>
+    <item name="act_diet_generator_rb_fat_loss" type="id"/>
+</resources>

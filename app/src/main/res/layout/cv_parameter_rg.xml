@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20">
+
+    <TextView
+        android:id="@+id/cv_parameter_rg_parameter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/normal_spacing"
+        android:layout_weight="11"/>
+
+    <RadioGroup
+        android:id="@+id/cv_parameter_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="9"/>
+
+    <ImageView
+        android:id="@+id/cv_parameter_rg_iv_select"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/select"
+        android:contentDescription="@string/iv_select"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/normal_spacing"
+        android:layout_weight="1"/>
+
+</LinearLayout>
